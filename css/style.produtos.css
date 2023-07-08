@@ -46,7 +46,7 @@ header {
     align-items: center;
 }
 .logo {
-    height: 50px;
+    height: 140px;
 }
 .menu-header {
     width: 50%;
@@ -89,8 +89,8 @@ header {
     background-image: url(../img/WhatsApp\ Image\ 2023-07-08\ at\ 09.03.29.jpeg);
     height: 768px;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    position: relative;
 }
 .conteudo-banner {
     display: flex;
@@ -187,7 +187,7 @@ h1 {
 
 /* Início CSS Card Produtos */
 .card img {
-    max-height: 300px;
+    max-height: 100%;
     width: 100%;
 }
 .mask {
