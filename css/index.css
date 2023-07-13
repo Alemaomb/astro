@@ -66,7 +66,7 @@ header {
     font-size: 1.6em;
 }
 .botao {
-    background-color: #A259F7;
+    background-color: #7a00ff;
     height: 45px;
     width: 150px;
     text-align: center;
@@ -139,13 +139,14 @@ h1 {
     font-weight: 600;
 }
 .texto-sobre p {
-    color: #198a1f;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00ff0d;
+    font-family: "Bebas Neue";
     text-align: justify;
+    font-size: larger;
 }
 .endereco {
     padding: 40px 0;
-    background-color: #080324;
+    background-color: #080319;
 }
 .conteudo-endereco {
     margin: 0 auto;

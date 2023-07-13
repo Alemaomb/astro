@@ -66,7 +66,7 @@ header {
     font-size: 1.6em;
 }
 .botao {
-    background-color: #A259F7;
+    background-color: #7a00ff;
     height: 45px;
     width: 150px;
     text-align: center;
@@ -157,13 +157,13 @@ footer {
     text-transform: uppercase;
 }
 .col-md-6 #txt-local {
-    margin-top: 0px;
-    border-bottom: 1px solid #706cf6;
-    margin-bottom: 16px;
+    margin-top: 20px;
+    border-bottom: 1px solid #111e8d;
+    margin-bottom: 25px;
     position: relative;
 }
 .text-left {
-    border-bottom: 1px solid #a3aff0;
+    border-bottom: 1px solid #111e8d;
     padding-bottom: 9px;
     position: relative;
 }
@@ -205,9 +205,9 @@ footer {
     -moz-box-shadow: inset 0px 1px 0px 0px #87c0e6;
     -webkit-box-shadow: inset 0px 1px 0px 0px #87c0e6;
     box-shadow: inset 0px 1px 0px 0px #87c0e6;
-    background-color: #297ee6;
+    background-color: #7a00ff;
     display: inline-block;
-    border: 1px solod #2489d6;
+    border: 1px solod #000000;
     border-radius: 25px;
     color: #fff;
     font-size: 16px;
@@ -217,6 +217,9 @@ footer {
     padding: 0;
     text-transform: uppercase;
     width: 30%;
+}
+#butao1 {
+    padding-right: 80px;
 }
 .formbutton:hover {
     background-color: #31a1de;

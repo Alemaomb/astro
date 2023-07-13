@@ -62,6 +62,11 @@ header {
     font-size: 1.5em;
     transition: 0.3s;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #7a00ff;
+    border-color: #7a00ff;
+}
 #card1 {
     padding: 15px;
 }
@@ -69,7 +74,7 @@ header {
     font-size: 1.6em;
 }
 .botao {
-    background-color: #A259F7;
+    background-color: #7a00ff;
     height: 45px;
     width: 150px;
     text-align: center;
@@ -194,6 +199,7 @@ h1 {
     max-height: 100%;
     width: 100%;
 }
+/* 
 .mask {
     position: absolute;
     top: 0;
@@ -212,8 +218,13 @@ h1 {
 .overlay mask:hover {
     opacity: 1;
 }
-.text-center .mb-5 {
-    margin-top: 20px;
+ */
+.text-center {
+    text-align: center!important;
+    padding-bottom: 30px;
+ }
+ .text-center .mb-5 {
+    margin-top: 50px;
     display: flex;
     position: relative;
     justify-content: center;
