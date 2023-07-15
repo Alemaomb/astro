@@ -5,6 +5,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    
+    .header {
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
     .menu-header {
         display: none;
         flex-direction: column;
@@ -19,14 +28,71 @@ body {
     .menu-barras {
         display: initial;
     }
+    .banner {
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* object-fit: fill; */
+        display: flex;
+    }
+    .contato {
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .rodape {
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
 
+    }
+    footer {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        color: #A259F7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
     #icone-menu {
         color: white;
         font-size: 30px;
     }
-    .banner {
-        background-image: url(../img/banner\ 2.0.jpeg);
+    #forms {
+        padding-top: 200px;
     }
+}
+.form-horizontal {
+    border-radius: 107px;
+    padding: 6px;
+}
+.form-control[type="text"] {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.form-control-msg[type="email"] {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.form-control-msg[type="text"] {
+    margin: 10px 0 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+    }
+    /* .banner {
+        background-image: url(../img/bannereinstein.jpeg);
+    } */
     .imagem-sobre {
         width: 100%;
     }
@@ -42,7 +108,7 @@ body {
         justify-content: space-between;
     }
     .conteudo-sobre {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     .container-mapa {
@@ -51,8 +117,16 @@ body {
         width: 100%;
         padding-top: 20%;
     }
-    .mapa-responsivo {
-        position: absolute;
+    .map {  
+        width: 100%;
+        margin-bottom: 50px;
+        position: relative;
+        display: flex;
+        height: 50%;
+    }
+    /*  
+    #mapa-responsivo {
+        position: relative;
         margin-top: 10px;
         top: 0;
         left: 0;
@@ -61,8 +135,8 @@ body {
         width: 100%;
         height: 100%;
     }
+*/
 
-}
     @media screen and(min-width: 768px) {
         .menu-header {
             display: flex !important;
